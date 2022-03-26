@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
 import Experience from "./components/experience/Experience";
-import Portofolio from "./components/portofolio/Portofolio";
+import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/Testimonials";
 import Services from "./components/services/Services";
 import About from "./components/about/About";
@@ -17,7 +17,7 @@ function App() {
       <About />
       <Experience />
       <Services />
-      <Portofolio />
+      <Portfolio />
       <Testimonials />
       <Contact />
       <Footer />
