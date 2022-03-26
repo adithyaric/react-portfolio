@@ -58,7 +58,7 @@ section {
 }
 
 section > h2,
-section > section > h5 {
+section > h5 {
   text-align: center;
   color: var(--color-white);
 }

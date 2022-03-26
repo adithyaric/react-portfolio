@@ -1,6 +1,13 @@
 import React from "react";
 import "./nav.css";
 import { useState } from "react";
+import {
+  BiHome,
+  BiMessageDetail,
+  BiUser,
+  BiArchive,
+  BiBookHeart,
+} from "react-icons/bi";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
@@ -10,27 +17,37 @@ const Nav = () => {
         href="#"
         onClick={() => setActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}
-      ></a>
+      >
+        <BiHome />
+      </a>
       <a
         href="#about"
         onClick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}
-      ></a>
+      >
+        <BiUser />
+      </a>
       <a
         href="#experience"
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
-      ></a>
+      >
+        <BiArchive />
+      </a>
       <a
         href="#services"
         onClick={() => setActiveNav("#services")}
         className={activeNav === "#services" ? "active" : ""}
-      ></a>
+      >
+        <BiBookHeart />
+      </a>
       <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}
         className={activeNav === "#contact" ? "active" : ""}
-      ></a>
+      >
+        <BiMessageDetail />
+      </a>
     </nav>
   );
 };
