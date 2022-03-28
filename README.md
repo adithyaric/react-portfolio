@@ -5,7 +5,7 @@ Assets and Tutorial from [Egator](https://youtu.be/G-Cr00UYokU)
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://raw.githubusercontent.com/adithyaric/react-portfolio/main/src/assets/ss1.png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://raw.githubusercontent.com/adithyaric/react-portfolio/main/src/assets/ss2.png)
 
